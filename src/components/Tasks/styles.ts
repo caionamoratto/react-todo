@@ -21,6 +21,7 @@ export const styles = StyleSheet.create({
 		width: 32,
 		alignItems: "center",
 		justifyContent: "center",
+		color: "#808080",
 	},
 	checkTask: {
 		alignItems: "stretch",

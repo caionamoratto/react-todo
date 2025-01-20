@@ -94,7 +94,11 @@ export function Home() {
 					onChangeText={setTaskName}
 					value={taskName}
 				/>
-				<TouchableOpacity style={styles.button} onPress={handleTaskAdd}>
+				<TouchableOpacity
+					style={styles.button}
+					onPress={handleTaskAdd}
+					activeOpacity={0.8}
+				>
 					<AntDesign style={styles.plusIcon} name="pluscircleo" />
 				</TouchableOpacity>
 			</View>

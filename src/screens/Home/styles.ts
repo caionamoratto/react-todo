@@ -7,8 +7,8 @@ export const styles = StyleSheet.create({
 		padding: 24,
 	},
 	logo: {
-		marginVertical: 30,
-		marginHorizontal: 90,
+		marginVertical: "10%",
+		marginHorizontal: "31%",
 	},
 	input: {
 		flex: 1,
@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
 		height: 56,
 		width: 56,
 		borderRadius: 10,
-		backgroundColor: "#4EA8DE",
+		backgroundColor: "#1E6F9F",
 		alignItems: "center",
 		justifyContent: "center",
 	},
