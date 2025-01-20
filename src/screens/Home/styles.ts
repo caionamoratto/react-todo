@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
 	},
 	logo: {
 		marginVertical: "10%",
-		marginHorizontal: "31%",
+		marginHorizontal: "30%",
 	},
 	input: {
 		flex: 1,

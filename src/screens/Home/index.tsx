@@ -43,6 +43,7 @@ export function Home() {
 		setTaskName("");
 		setTotalCounter((prevState) => prevState + 1);
 		setChecks((prevState) => [...prevState, false]);
+		console.log(checks);
 	}
 	function handleTaskRemove(task: string) {
 		//Função utilizada para deletar uma task ao clicar na lixeira.
@@ -58,6 +59,7 @@ export function Home() {
 					if (checks[tasks.indexOf(task)] === true) {
 						setDoneCounter((prevState) => prevState - 1);
 					}
+					checks.splice(tasks.indexOf(task), 1);
 				},
 			},
 			{
