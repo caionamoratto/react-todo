@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Todo list do curso de React Native da Rocketseat.
 
 1. Install dependencies
