@@ -12,7 +12,6 @@ export const styles = StyleSheet.create({
 	task: {
 		flex: 1,
 		fontSize: 14,
-		color: "#FFF",
 		padding: 12,
 	},
 	button: {
