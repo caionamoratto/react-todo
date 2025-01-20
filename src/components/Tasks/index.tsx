@@ -16,6 +16,8 @@ export function Task({ task, checkBox, onRemove, onCheck }: Props) {
 			<Checkbox isChecked={checkBox} onPressButton={onCheck} />
 			<Text
 				style={[
+					//Há essa possibilidade de adicionar manual algum estilo, é preciso transformar em array
+					// array o retorno do style.
 					styles.task,
 					{
 						textDecorationLine: checkBox ? "line-through" : "none",
