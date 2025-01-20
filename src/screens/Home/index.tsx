@@ -56,10 +56,16 @@ export function Home() {
 						prevState.filter((previousTask) => previousTask !== task),
 					);
 					setTotalCounter((prevState) => prevState - 1);
+					// Lida com a possibilidade de deletar uma tarefa marcada como concluida
 					if (checks[tasks.indexOf(task)] === true) {
 						setDoneCounter((prevState) => prevState - 1);
 					}
-					checks.splice(tasks.indexOf(task), 1);
+					//Remove o estado elemento da checkbox referente a task removida.
+					setChecks((prevChecks) =>
+						prevChecks.filter(
+							(prevChecks, index) => index !== tasks.indexOf(task),
+						),
+					);
 				},
 			},
 			{
